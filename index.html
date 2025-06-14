@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="container">
     <div class="left">
-        <div class="logo"></div>
+        <div class="logo">
+          <img src="photo-1585202900225-6d3ac20a6962.avif" alt="Background image of leaves">
+          <h1>ODIN</h1>
+        </div>
+        <p>Photo by Halie West on Unsplash</p>
     </div>
 
     <div class="right">
@@ -22,43 +27,49 @@
                     <legend>Sign-up Form</legend>
                     <p>Let's do this!</p>
                     <div>
-                        <div>
+                        <div class="inputRow">
+                          <div class="inputField">
                             <label for="fname">FIRST NAME: </label>
                             <input id="fname" name="fname" type="text" required>
                             <span></span>
                           </div>
-                          <div>
+                          <div class="inputField">
                             <label for="lname">LAST NAME: </label>
                             <input id="lname" name="lname" type="text" required>
                             <span></span>
                           </div>
-                          <div>
+                        </div>
+                        <div class="inputRow">
+                          <div class="inputField">
                             <label for="email">EMAIL: </label>
                             <input id="email" name="email" type="email" required>
                             <span></span>
                           </div>
-                          <div>
+                          <div class="inputField">
                             <label for="phoneNumber">PHONE NUMBER: </label>
                             <input id="phoneNumber" name="phoneNumber" type="tel" required>
                             <span></span>
                           </div>
-                          <div>
+                        </div>
+                        <div class="inputRow">
+                          <div class="inputField">
                             <label for="password">PASSWORD: </label>
                             <input id="password" name="password" type="password" required>
                             <span></span>
                           </div>
-                          <div>
+                          <div class="inputField">
                             <label for="cPassword">CONFIRM PASSWORD: </label>
                             <input id="cPassword" name="cPassword" type="password" required>
                             <span></span>
                           </div>
+                        </div>
                     </div>
                 </fieldset>
             </form>
 
         </div>
         <div class="createAccount">
-            <button>Create Account</button>
+            <button type="submit">Create Account</button>
             <div>
                 <p>Already have an account?</p>
                 <p class="logIn">Log in</p>
@@ -66,5 +77,6 @@
             
         </div>
     </div>
+  </div>
 </body>
 </html>
